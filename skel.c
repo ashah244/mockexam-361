@@ -37,8 +37,9 @@ int main(int argc, char ** argv)
   // check the returned value and exit(0) on failure
   // the output file name should be "<input-filename>.myzip"
   // example: input: 1.txt
-  //          output: 1.txt.myzip
+  //          output  : 1.txt.myzip
   // TODO: Your code here:
+    int fdin2 = open(argv[1], O_WRONLY);
 
 
 
